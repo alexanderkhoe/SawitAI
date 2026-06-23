@@ -1,5 +1,6 @@
 # SawitAI — QGIS Plugin for Palm Tree Detection
 
+## Tutorial Plugin SawitAI: Deteksi Pohon Sawit Menggunakan QGIS: https://youtu.be/fui0e7wTpm4
 **SawitAI** adalah plugin QGIS yang dikembangkan untuk membantu proses deteksi pohon kelapa sawit pada citra raster secara lebih praktis dan terintegrasi langsung di lingkungan QGIS. Plugin ini memanfaatkan model deteksi berbasis deep learning dengan format `.pt` untuk melakukan prediksi pada citra raster, kemudian menyimpan hasil deteksi dalam format shapefile (`.shp`) sehingga dapat digunakan kembali untuk analisis spasial, pemetaan, dan validasi lapangan.
 
 Repository ini berisi plugin **SawitAI / Palm Tree Detection** yang dapat dijalankan di QGIS untuk memproses data citra raster berdasarkan area batas wilayah tertentu. Pengguna dapat memasukkan file raster (`.tif`), shapefile area of interest (`.shp`), model deteksi (`.pt`), serta menentukan lokasi output shapefile hasil deteksi. Plugin juga menyediakan pengaturan parameter seperti **tile size**, **overlap ratio**, dan **threshold** untuk menyesuaikan proses deteksi sesuai karakteristik data citra yang digunakan.
